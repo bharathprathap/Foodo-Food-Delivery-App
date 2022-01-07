@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activity.OtpEnterActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/OtpToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Theme.AppCompat.Light" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogo"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:text="Enter the received OTP below:"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etOTP"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtInstruction"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_mobile"
+        android:hint=" Enter OTP"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/etOTP"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_password"
+        android:hint=" New Password"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/etConfirmPass"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/etPassword"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_password"
+        android:hint=" Confirm Password"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/etConfirmPass"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:text="Submit"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

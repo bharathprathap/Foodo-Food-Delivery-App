@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Foodo</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <string name="menu_home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favourite_restaurant">Favourite Restaurant</string>
+    <string name="order_history">Order History</string>
+    <string name="faq_s">FAQ\'s</string>
+    <string name="log_out">Log out</string>
+    <string name="home_fragment">Home Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="proceed_to_cart">Proceed To Cart</string>
+    <string name="choose_from_menu_listed_below">Choose from menu listed below:</string>
+    <string name="preference_file_name">Shared Resource</string>
+    <string name="sort">Sort</string>
+    <string name="ordering_from">Ordering From:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>
